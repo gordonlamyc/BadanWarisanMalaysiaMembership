@@ -73,45 +73,7 @@ Badan Warisan Malaysia is a non-profit heritage conservation organisation. This 
 - Node.js (v18 or later)
 - A Supabase project (free tier works)
 
-### Installation
 
-1. Clone the repository:
-
-   ```
-   git clone https://github.com/gordonlamyc/BadanWarisanMalaysiaMembership.git
-   cd BadanWarisanMalaysiaMembership
-   ```
-
-2. Install dependencies:
-
-   ```
-   npm install
-   ```
-
-3. Set up your environment variables by creating a `.env` file in the root directory:
-
-   ```
-   VITE_SUPABASE_URL=your_supabase_project_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
-
-4. Set up the database by running the migration SQL file in your Supabase SQL Editor:
-
-   ```
-   supabase_migration_memberships_v5_complete.sql
-   ```
-
-   Refer to `DATABASE_SETUP.md` and `SUPABASE_SETUP.md` for full database setup instructions.
-
-5. Start the development server:
-
-   ```
-   npm run dev
-   ```
-
-6. Open your browser and go to `http://localhost:5173`
-
----
 
 ## App Navigation
 
